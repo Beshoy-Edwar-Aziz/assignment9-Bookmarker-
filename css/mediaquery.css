@@ -1,0 +1,15 @@
+@media all and (max-width:575px){
+    h1::after{
+        width: 50vw;
+    }
+}
+@media all and (min-width:576px) and (max-width:767px){
+    h1::after{
+        width: 40vw;
+    }
+}
+@media all and (min-width:768px) and (max-width:991px){
+    h1::after{
+        width: 30vw;
+    }
+}
