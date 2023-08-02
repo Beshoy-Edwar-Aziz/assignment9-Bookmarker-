@@ -43,7 +43,7 @@ input:focus{
 outline-color: #e7a61a !important;
 border-color: #e7a61a !important;}
 .main .container button{
-    width: 15%;
+    width: 15vw;
 }
 .btn-submit{
     background-color: #d1512d !important;
