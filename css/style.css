@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600;700&family=PT+Sans+Caption&family=Pacifico&family=Righteous&display=swap');
+section{
+    padding: 80px 0;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    background-color: #fec260;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%); 
+    z-index: -1;
+    transition: all .5s;
+}
+h1:hover::after{
+    height: 65%;
+    top: 30%;
+    cursor: pointer;
+}
+h2{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    background: linear-gradient(to right, #3fa55c,#b2ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+hr{
+    border-top: 2px dotted #352e28;
+}
+input:focus{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(231,166,26,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(231,166,26,1);
+    box-shadow: 0px 0px 5px 3px rgba(231,166,26,1) !important;
+outline-color: #e7a61a !important;
+border-color: #e7a61a !important;}
+.main .container button{
+    width: 15%;
+}
+.btn-submit{
+    background-color: #d1512d !important;
+    color: #fff !important;
+    transition: box-shadow .2s;
+}
+.btn-submit:hover{
+    -webkit-box-shadow: inset 10px 10px 0px 200px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 0px 200px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 0px 200px rgba(0,0,0,0.75);
+}
+.btn-visit{
+    background-color: #9eb23b !important;
+    color: #fff !important;
+    transition: box-shadow .2s;
+}
+.btn-visit:hover{
+    -webkit-box-shadow: inset 10px 10px 0px 200px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 10px 10px 0px 200px rgba(0,0,0,0.1);
+    box-shadow: inset 10px 10px 0px 200px rgba(0,0,0,0.1);
+}
+#repeated,#wrongName,#wrongURL{
+    display: none;
+}
+
+
+table tbody tr td{
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
